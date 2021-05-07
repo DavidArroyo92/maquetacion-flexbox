@@ -38,6 +38,7 @@
 .boton-verde{
     background: yellowgreen;
     padding: 0.2rem 0.4rem;
+    margin-left: 30px;
 }
 .nav1{
     display: flex;
@@ -64,7 +65,7 @@
     width: 100%;
 }
 .buscador{
-    width: 58%;
+    width: 48%;
     display: flex;
     justify-content: center;
     margin: 0;
@@ -72,12 +73,20 @@
     right: initial;
     top: initial;
 }
-.busca{
-        background-color: #f5f5f5;
-        width: 90%;
+.busc{
+    display: flex;
+    background-color: #f5f5f5;
+    width: 90%;
+}
+.busc input{
+    width: 100%;
+    background-color: #f5f5f5;
 }
 
 .usuariocarrito{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
     width: 20%;
     margin-right: 0px;
     color: green;
@@ -238,11 +247,16 @@ footer{
 
 footer p {
     color: white;
+    transition: transform 0.5s;   
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
 }
 
 footer p:hover {
     color: green;
-    transition: .5s;
 }
 
 footer li:hover {
