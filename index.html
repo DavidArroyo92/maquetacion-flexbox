@@ -4,26 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://kit.fontawesome.com/1b1e79f756.js" crossorigin="anonymous"></script>
     <title>SPORTING</title>
 </head>
 <body>
     <header class="header-menu">
+        <div class="botones">
+            <button id="mostrar">MOSTRAR IMAGENES</button>
+            <button id="ocultar">NO MOSTRAR IMAGENES</button>
+        </div>
         <div class="banner">
             <ul class="menu-list">
                 <li class="active">
-                    <a href="#">
+                    <a href="index.html">
                         <img src="images/small-logo-sporting.png" alt="minilogo">
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="https://www.wokerbysporting.com.ar/?utm_source=google&utm_medium=search&utm_campaign=pago-ao-clics-kws&utm_term=responsivo&gclid=CjwKCAjw7diEBhB-EiwAskVi18YB759CUDcepJmckUYfNmxW_CVbE8ImpJGb8UEVj8RmW3yXZEXHxBoCc78QAvD_BwE">
                         <img src="images/small-logo-woker.png" alt="wlogo">
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="https://www.tuszapatos.com.ar/">
                         <img src="images/logo-mini-tuszapatos-white.png" alt="tusz">
                     </a>
                 </li>
@@ -46,6 +51,16 @@
                 <span>
                     MENú
                 </span>
+                <!-- <div class="side-bar">
+                    <div class="menu-desplegable">
+                        <ul>
+                            <li>LISTA 1</li>
+                            <li>LISTA 1</li>
+                            <li>LISTA 1</li>
+                            <li>LISTA 1</li>
+                        </ul>
+                    </div>
+                </div> -->
             </div>
             <div class="logo">
                 <a href="#">
@@ -237,7 +252,7 @@
                     </div>
                 </div>
                 <div class="product">
-                    <div class="prod-image">
+                    <div class="prod-image"id="product">
                         <img src="images/zapas4.jpg">
                     </div>
                     <div class="marca">
@@ -383,7 +398,9 @@
                    Sporting ® | Próhibida la reproducción total o parcial del sitio web sin la autorización de la empresa.
                 </p> 
             </div>
+            <button class="botonesverdes" id="subir">SUBIR</button>
         </footer>
     </section>
+    <script src="js/script.js"></script>
 </body>
 </html>

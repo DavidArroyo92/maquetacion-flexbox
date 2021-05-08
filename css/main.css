@@ -3,6 +3,23 @@
 }
 
 /*HEADER*/
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.botones button{
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 10px;
+    color: #ffffff;
+    background-color: #33ba18;
+    border-radius: 6px;
+    border: 2px solid #1db000;
+}
+
 .header-menu {
     display: flex;
     flex-wrap: nowrap;
@@ -23,6 +40,39 @@
     list-style: none;
     padding: 1px 10px 0;
     color: white;
+}
+ .side-bar{
+     background: rgb(255, 225, 225, 0.1);
+     backdrop-filter: blur(15px);
+     width: 690px;
+     height: 80vh;
+     position: fixed;
+     top: 0;
+     left: 0;
+     overflow-y: auto;
+ }
+
+ .side-bar .menu-desplegable{
+     width: 100%;
+     margin-top: 80px;
+ }
+
+ .side-bar .menu-desplegable ul {
+     position: relative;
+     cursor: pointer;
+ }
+
+ .side-bar .menu-desplegable ul li {
+     color: #000;
+         font-size: 16px;
+         text-decoration: none;
+         display: block;
+         padding: 2px 20px;
+         line-height: 60px;
+}
+.side-bar .menu-desplegable ul li:hover{
+    color: rgb(179, 50, 205);
+    transition: 0.3 ease;
 }
 .active{
     background: #fff;
@@ -338,4 +388,15 @@ footer li:hover {
 .footer-bottom{
     text-align: center;
     
+}
+
+.botonesverdes{
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 10px;
+    color: #ffffff;
+    background-color: #33ba18;
+    border-radius: 6px;
+    border: 2px solid #1db000;
 }
