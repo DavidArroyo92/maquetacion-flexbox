@@ -6,18 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://kit.fontawesome.com/1b1e79f756.js" crossorigin="anonymous"></script>
     <title>SPORTING</title>
 </head>
 <body>
     <header class="header-menu">
+        <div class="dialogo" id="dialog">
+            <p>ESTA PÁGINA ESTA DESARROLLANDOSE CON HTML, CSS, FLEXBOX Y JQUERY</p>
+          </div>
+
         <div class="botones">
             <button id="mostrar">MOSTRAR IMAGENES</button>
             <button id="ocultar">NO MOSTRAR IMAGENES</button>
         </div>
         <div class="banner">
             <ul class="menu-list">
-                <li class="active">
+                <li class="active2">
                     <a href="index.html">
                         <img src="images/small-logo-sporting.png" alt="minilogo">
                     </a>
@@ -46,22 +51,31 @@
             </div>
         </div>
         <div class="combot">
-            <div class="menu">
-                <i class="fa fa-bars fa-2x fa-lg"></i>
-                <span>
-                    MENú
-                </span>
-                <!-- <div class="side-bar">
-                    <div class="menu-desplegable">
-                        <ul>
-                            <li>LISTA 1</li>
-                            <li>LISTA 1</li>
-                            <li>LISTA 1</li>
-                            <li>LISTA 1</li>
-                        </ul>
-                    </div>
-                </div> -->
+            <div class="menu-btn">
+                <i class="fas fa-bars menu-btn"></i>
+                <span>MENU</span>
             </div>
+           <div class="side-bar">
+               <div class="close-btn">
+                     <i class="fas fa-times close-btn"></i>
+               </div>
+               <div class="menu">
+                   <ul>
+                       <li>lista1</li>
+                       <li>lista2</li>
+                       <li>lista3</li>
+                       <li>lista4</li>
+                       <li>lista5</li>
+                   </ul>
+                   <ul>
+                    <li>lista1</li>
+                    <li>lista2</li>
+                    <li>lista3</li>
+                    <li>lista4</li>
+                    <li>lista5</li>
+                    </ul>
+               </div>
+           </div>
             <div class="logo">
                 <a href="#">
                     <img src="images/2.png" alt="logo">
@@ -340,11 +354,16 @@
                 <div class="col-foo">
                     <div>
                         <h2>INFORMACION</h2>
+                        <p>Preguntas frecuentes</p>
+                        <p>Politicas de envio</p>
+                        <p>Como comprar</p>
+                        <p>Politica de privacidad</p>
+                        <p>ME ARREPENTÍ</p>
                     </div>
                     <div>
-                        <ul>
+                        <!-- <ul>
                             <li>Preguntas frecuentes</li>
-                            <li>Medios de pago</li>
+                            <li>Preguntas frecuentes</li>
                             <li>Politicas de envio</li>
                             <li>Como comprar</li>
                             <li>Politica de privacidad</li>
@@ -353,31 +372,25 @@
                                     ME ARREPENTÍ
                                 </a>
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
                 <div class="col-foo">
                     <h2>compra 100% segura </h2>
-                    <ul>
-                        <p>
-                            Nuestro sitio posee toda la seguridad para su compra.
-                        </p>
-                    </ul>
+                    <p>
+                         Nuestro sitio posee toda la seguridad para su compra.
+                     </p>
                 </div>
                 <div class="col-foo">
                     <div>
                         <h2>
                             pagos 100% seguros
                         </h2>
-                    </div>
-                    <div>
-                        <ul>
-                            <p>
-                                Nuestro sitio posee toda la seguridad para su compra.
-                            </p>
-                        </ul>
-                    </div>
+                        <p>
+                            Nuestro sitio posee toda la seguridad para su compra.
+                        </p>
                 </div>
+            </div>
             </div>
             <div class="social">
                 <!-- <div class="linea">
@@ -397,8 +410,8 @@
                <p>
                    Sporting ® | Próhibida la reproducción total o parcial del sitio web sin la autorización de la empresa.
                 </p> 
+                <button class="botonesverdes" id="subir">SUBIR</button>
             </div>
-            <button class="botonesverdes" id="subir">SUBIR</button>
         </footer>
     </section>
     <script src="js/script.js"></script>
