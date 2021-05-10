@@ -127,7 +127,7 @@
 
 .combot{
     display: flex;
-    width: 100%;
+    width: 97%;
     padding: 3% 20px;
     background: white;
 }
@@ -456,3 +456,37 @@ footer li:hover {
     background-color: white;
     border: 2px solid yellow;
 }
+
+.fullbanner2 img{
+    width: 100%;
+}
+.owl-carousel{
+max-width: 50%;
+}
+
+.ban-new{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.carousel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*CON ESTO TE QUITA EL SCROLL X e Y*/
+
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+
+/* CON ESTO LE QUITAS EL SCROLL HORIZONTAL */
+
+/* *{
+    overflow-x: hidden
+} */
+
